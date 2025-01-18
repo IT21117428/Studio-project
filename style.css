@@ -113,13 +113,11 @@ body::-webkit-scrollbar-thumb {
 }
 
 .home-widget-outer {
-  border: 1px solid red;
   margin-top: -120px;
 }
 
 .widget-outer {
   height: 350px;
-  border: 1px solid red;
   margin-bottom: 20px;
 }
 
@@ -130,19 +128,22 @@ body::-webkit-scrollbar-thumb {
   background-color: white;
   display: flex;
   flex-direction: column;
+  transition: box-shadow 0.5s;
+}
+
+.widget-inner:hover {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 .widget-inner-top {
   width: 100%;
   height: 125px;
-  border: 1px solid red;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .widget-inner-bottom {
-  border: 1px solid red;
   flex: 1;
   padding: 15px;
 }
@@ -152,6 +153,14 @@ body::-webkit-scrollbar-thumb {
   height: 90px;
   background-color: #fe214f;
   border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.widget-icon svg {
+  width: 80%;
+  height: 80%;
 }
 
 .widget-header {
