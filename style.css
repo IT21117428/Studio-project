@@ -173,3 +173,15 @@ body::-webkit-scrollbar-thumb {
   color: gray;
 }
 /* Home area */
+
+/* Service area */
+
+.service-outer {
+  min-height: 750px;
+  width: 100%;
+  border: 1px solid red;
+  background-image: url(https://images02.nicepage.com/c461c07a441a5d220e8feb1a/24af2a14af16514caf47360a/33581d05cec4a3308cd79979a51eed9d.jpeg);
+  background-position: left;
+}
+
+/* Service area */
