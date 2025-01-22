@@ -184,4 +184,34 @@ body::-webkit-scrollbar-thumb {
   background-position: left;
 }
 
+.service-container {
+  min-height: 750px;
+}
+
+.row {
+  height: 100%;
+}
+
+.service-container-inner {
+  height: 100%;
+}
+
+.service-right-side {
+  min-height: 750px;
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: stretch;
+}
+
+.right-top {
+  height: 350px;
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+.right-bottom {
+  height: 350px;
+  background: white;
+}
 /* Service area */
